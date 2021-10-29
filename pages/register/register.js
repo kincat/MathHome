@@ -98,6 +98,7 @@ Page({
 
     return;
 
+    
     console.log(this.data);
     let token = wx.getStorageSync('token');
     wx.request({
